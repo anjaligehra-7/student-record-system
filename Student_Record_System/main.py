@@ -17,7 +17,7 @@ def view_students():
             if not students:
                 print("No records found.\n")
                 return
-
+                
             print("\n----- Student Records -----")
 
             for student in students:
